@@ -1,0 +1,7 @@
+# m1_v1 schema (informational)
+type: map
+required:
+  - date
+  - symbol
+  - granularity
+  - rows

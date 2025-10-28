@@ -1,0 +1,7 @@
+# h1_from_m1_v1 schema (informational)
+type: map
+required:
+  - date
+  - symbol
+  - source
+  - bars

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.ebv.seal.midnight</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/env</string>
+    <string>bash</string>
+    <string>-lc</string>
+    <string>cd '$HOME/ebv_data_stack' && source .venv/bin/activate && python scripts/seal_midnight_utc.py</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>0</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key><string>$(HOME)/Library/Logs/ebv.seal.midnight.out.log</string>
+  <key>StandardErrorPath</key><string>$(HOME)/Library/Logs/ebv.seal.midnight.err.log</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+# d1_from_m1_v1 schema (informational)
+type: map
+required:
+  - date
+  - symbol
+  - source
+  - o
+  - h
+  - l
+  - c
+  - seal_ts
